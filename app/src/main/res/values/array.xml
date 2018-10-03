@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    mr. and mrs.
+    <string-array name="s_gender">
+        <item>Mr.</item>
+        <item>Ms.</item>
+    </string-array>
+
+    <string-array name="f3_list">
+        <item>Select any one</item>
+        <item>Masonry or frame construcation</item>
+        <item>Sheet metal,steel welded</item>
+        <item>Module panel,caulked and sealed</item>
+    </string-array>
+
+    <string-array name="f4_list">
+        <item>Select any one</item>
+        <item>Laminated</item>
+        <item>Two layer edge sealed Moisture paper</item>
+        <item>Two coats vapor proof paint</item>
+    </string-array>
+
+    <string-array name="activity_level">
+        <item>Select any one</item>
+        <item>At Rest</item>
+        <item>Light physical Exertion</item>
+        <item>Heavy physical Exertion</item>
+    </string-array>
+
+
+    <string-array name="pre_cool">
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+
+
+
+
+</resources>

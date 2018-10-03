@@ -1,0 +1,917 @@
+<resources>
+    <string name="app_name">CASILICA</string>
+    <string name="selectvalue">Select any one</string>
+
+    <string name="date">Date</string>
+    <string name="company_name">Company Name</string>
+    <string name="client_name">Client Name</string>
+    <string name="person_name">Person Name</string>
+    <string name="mobile">Phone Number</string>
+    <string name="address">Address</string>
+    <string name="email">Email ID</string>
+    <string name="project">Project Name</string>
+    <string name="consultant">Consultant Name</string>
+    <string name="offer">Offer No</string>
+    <string name="area">Area/Application</string>
+    <string name="area1">Area/Application</string>
+
+
+    //........................//
+    <string name="input_date">dd/mm/yy</string>
+    <string name="input_client_name">Enter Client Name</string>
+    <string name="input_person_name">Enter Person Name</string>
+    <string name="input_mobile">Enter Phone Number</string>
+    <string name="input_address">Enter Your Address</string>
+    <string name="input_email">sample@example.com</string>
+    <string name="input_project">Enter Project Name</string>
+    <string name="input_consultant">Enter Consultant Name</string>
+    <string name="input_offer">Offer No</string>
+    <string name="input_area">Your Area</string>
+
+    <!--2nd page-->
+    <string name="input_ambient">Ambient Condition(Monsoon)</string>
+    <string name="input_dry_bulb">Dry Bulb Temperature*</string>
+    <string name="input_wet_blue">Wet Bulb Temperature</string>
+    <string name="input_rh">RH%</string>
+    <string name="input_gr">Gr/#</string>
+    <string name="input_enthalpy">Enthalpy BTU/#</string>
+    <string name="input_design">Design Condition </string>
+    <string name="input_design2">Required Condition </string>
+    <string name="input_grtext">gr</string>
+    <string name="input_f1_hidden">F1 (Due to grain difference)</string>
+    <string name="input_room1">Dimension Room 1</string>
+    <string name="input_room2">Dimension Room 2</string>
+    <string name="input_room3">Dimension Room 3</string>
+    <string name="input_length">Length(ft)</string>
+    <string name="input_width">Width (ft)</string>
+    <string name="input_height">Height (ft)</string>
+    <string name="input_volume">Volume</string>
+    <string name="input_tvolume">Total Room Volume</string>
+    <string name="input_no_of_person">No of Person in a room</string>
+    <string name="input_f2hidden">F2 (due to area) - hidden</string>
+    <string name="input_f3_factors">F3(factors of construction)</string>
+    <string name="input_f4_factors">F4(factors for vapor barrier)</string>
+    <string name="input_door1">Door Dimension 1</string>
+    <string name="input_door2">Door Dimension 2</string>
+    <string name="input_door3">Door Dimension 3</string>
+    <string name="input_condition_out">Condition Outside the Door </string>
+    <string name="input_ac">AC</string>
+    <string name="input_non_ac">Non AC</string>
+    <string name="input_door_opening">Door Opening per hour </string>
+    <string name="input_d1">Door 1 </string>
+    <string name="input_d2">Door 2 </string>
+    <string name="input_d3">Door 3 </string>
+    <string name="input_d4">Door 4 </string>
+    <string name="input_occupancy">Occupancy</string>
+    <string name="input_activity_level">Activity Level </string>
+    <string name="input_f_dimensions">Fixed Opening Dimensions </string>
+    <string name="input_fopening1">Fixed opening 1</string>
+    <string name="input_fopening2">Fixed opening 2</string>
+    <string name="input_fopening3">Fixed opening 3</string>
+    <string name="input_depth">Depth(ft)</string>
+    <string name="input_fixed_opening">Condition Outside the Fixed Opening</string>
+    <string name="input_fresh_air">Fresh Air quantity</string>
+    <string name="input_precool">PRECOOL</string>
+    <string name="input_cfm">CFM</string>
+    <string name="input_no_precool">NO PRECOOL</string>
+    <string name="input_exhaust_air">Exhaust Air Quantity </string>
+    <string name="input_leakage_air">Infiltration/Leakage Air Quantity </string>
+    <string name="input_infilterated">Infilterated Air @ condition</string>
+    <string name="input_product_latend">Product Latent Load</string>
+    <string name="input_kgse">kgs/hr</string>
+    <string name="input_pload">Product load</string>
+    <string name="input_imc">IMC</string>
+    <string name="input_fmc">FMC</string>
+    <string name="input_wt">Wt</string>
+    <string name="input_bywt">By wt</string>
+    <string name="input_dload">Dir Load</string>
+    <string name="input_dtime">Drying time</string>
+    <string name="input_heat_load">Heat Load of Each Area </string>
+    <string name="input_ahu">AHU Capacity </string>
+    <string name="input_adp">Design ADP </string>
+    <string name="input_estatic">External Static Pressure Required</string>
+    <string name="input_fclass">Filtration/Class Level to be Maintained</string>
+    <string name="input_bhu">BTU/Hr</string>
+    <string name="input_degf">deg F</string>
+    <string name="input_inches">inches of WC</string>
+    <string name="input_microns">microns</string>
+
+    <!--f1 table-->
+
+    <string name="f1_35">1.0</string>
+    <string name="f1_40">1.12</string>
+    <string name="f1_50">1.35</string>
+    <string name="f1_60">1.59</string>
+    <string name="f1_70">1.82</string>
+    <string name="f1_80">2.06</string>
+    <string name="f1_90">2.29</string>
+    <string name="f1_100">2.53</string>
+    <string name="f1_110">2.76</string>
+    <string name="f1_120">3.00</string>
+
+
+    <!--f2 table-->
+
+    <!--<string name="f2_10">0.65</string>
+    <string name="f2_20">0.58</string>
+    <string name="f2_25">0.55</string>
+    <string name="f2_30">0.53</string>
+    <string name="f2_35">0.51</string>
+    <string name="f2_40">0.49</string>
+    <string name="f2_45">0.48</string>
+    <string name="f2_50">0.46</string>
+    <string name="f2_55">0.45</string>
+    <string name="f2_60">0.44</string>
+    <string name="f2_65">0.43</string>
+    <string name="f2_70">0.42</string>
+    <string name="f2_75">0.43</string>
+    <string name="f2_80">0.4</string>
+    <string name="f2_85">0.39</string>
+    <string name="f2_90">0.38</string>
+    <string name="f2_95">0.38</string>
+    <string name="f2_100">0.37</string>-->
+
+    <string name="f2_10">0.65</string>
+    <string name="f2_20">0.58</string>
+    <string name="f2_25">0.55</string>
+    <string name="f2_30">0.53</string>
+    <string name="f2_35">0.52</string>
+    <string name="f2_40">0.5</string>
+    <string name="f2_45">0.48</string>
+    <string name="f2_50">0.46</string>
+    <string name="f2_55">0.45</string>
+    <string name="f2_60">0.44</string>
+    <string name="f2_65">0.435</string>
+    <string name="f2_70">0.42</string>
+    <string name="f2_75">0.41</string>
+    <string name="f2_80">0.4</string>
+    <string name="f2_85">0.39</string>
+    <string name="f2_90">0.38</string>
+    <string name="f2_95">0.375</string>
+    <string name="f2_100">0.37</string>
+
+
+    <!-- Deh CFM/capacity reqd-->
+    <string name="delta_0_10">0.0</string>
+    <string name="delta_0_15">0.0</string>
+    <string name="delta_0_20">0.0</string>
+    <string name="delta_0_25">0.0</string>
+    <string name="delta_0_30">0.0</string>
+
+    <string name="delta_0s_10">0.0</string>
+    <string name="delta_0s_15">0.0</string>
+    <string name="delta_0s_20">0.0</string>
+    <string name="delta_0s_25">0.0</string>
+    <string name="delta_0s_30">0.0</string>
+
+    <string name="delta_1_10">0.25</string>
+    <string name="delta_1_15">0.3125</string>
+    <string name="delta_1_20">0.375</string>
+    <string name="delta_1_25">0.375</string>
+    <string name="delta_1_30">0.45</string>
+
+    <string name="delta_1s_10">0.3</string>
+    <string name="delta_1s_15">0.36</string>
+    <string name="delta_1s_20">0.38</string>
+    <string name="delta_1s_25">0.39</string>
+    <string name="delta_1s_30">0.55</string>
+
+    <string name="delta_2_10">0.35</string>
+    <string name="delta_2_15">0.41</string>
+    <string name="delta_2_20">0.42</string>
+    <string name="delta_2_25">0.44</string>
+    <string name="delta_2_30">0.7</string>
+
+    <string name="delta_2s_10">0.4</string>
+    <string name="delta_2s_15">0.46</string>
+    <string name="delta_2s_20">0.5</string>
+    <string name="delta_2s_25">0.52</string>
+    <string name="delta_2s_30">0.8</string>
+
+    <string name="delta_3_10">0.5</string>
+    <string name="delta_3_15">0.52</string>
+    <string name="delta_3_20">0.55</string>
+    <string name="delta_3_25">0.59</string>
+    <string name="delta_3_30">0.86</string>
+
+    <string name="delta_3s_10">0.55</string>
+    <string name="delta_3s_15">0.57</string>
+    <string name="delta_3s_20">0.6</string>
+    <string name="delta_3s_25">0.63</string>
+    <string name="delta_3s_30">0.87</string>
+
+    <string name="delta_4_10">0.65</string>
+    <string name="delta_4_15">0.66</string>
+    <string name="delta_4_20">0.76</string>
+    <string name="delta_4_25">0.79</string>
+    <string name="delta_4_30">1.22</string>
+
+    <string name="delta_4s_10">0.75</string>
+    <string name="delta_4s_15">0.81</string>
+    <string name="delta_4s_20">0.95</string>
+    <string name="delta_4s_25">1</string>
+    <string name="delta_4s_30">1.42</string>
+
+
+    <string name="delta_5_10">0.85</string>
+    <string name="delta_5_15">0.96</string>
+    <string name="delta_5_20">0.98</string>
+    <string name="delta_5_25">1.2</string>
+    <string name="delta_5_30">1.62</string>
+
+    <string name="delta_5s_10">0.95</string>
+    <string name="delta_5s_15">1</string>
+    <string name="delta_5s_20">1.2</string>
+    <string name="delta_5s_25">1.5</string>
+    <string name="delta_5s_30">1.82</string>
+
+    <string name="delta_6_10">1</string>
+    <string name="delta_6_15">1.2</string>
+    <string name="delta_6_20">1.3</string>
+    <string name="delta_6_25">1.8</string>
+    <string name="delta_6_30">2</string>
+
+    <string name="delta_6s_10">1.12</string>
+    <string name="delta_6s_15">1.14</string>
+    <string name="delta_6s_20">1.7</string>
+    <string name="delta_6s_25">2</string>
+    <string name="delta_6s_30">2.3</string>
+
+    <string name="delta_7_10">1.23</string>
+    <string name="delta_7_15">1.26</string>
+    <string name="delta_7_20">1.9</string>
+    <string name="delta_7_25">2.2</string>
+    <string name="delta_7_30">2.6</string>
+
+    <string name="delta_7s_10">0.0</string>
+    <string name="delta_7s_15">1.8</string>
+    <string name="delta_7s_20">2.1</string>
+    <string name="delta_7s_25">2.4</string>
+    <string name="delta_7s_30">2.8</string>
+
+    <string name="delta_8_10">0.0</string>
+    <string name="delta_8_15">1.9</string>
+    <string name="delta_8_20">2.4</string>
+    <string name="delta_8_25">2.8</string>
+    <string name="delta_8_30">3</string>
+
+    <string name="delta_8s_10">0.0</string>
+    <string name="delta_8s_15">1.2</string>
+    <string name="delta_8s_20">2.6</string>
+    <string name="delta_8s_25">3</string>
+    <string name="delta_8s_30">3.49</string>
+
+    <string name="delta_9_10">0.0</string>
+    <string name="delta_9_15">2.4</string>
+    <string name="delta_9_20">2.9</string>
+    <string name="delta_9_25">3.4</string>
+    <string name="delta_9_30">3.79</string>
+
+    <string name="delta_9s_10">0.1</string>
+    <string name="delta_9s_15">2.7</string>
+    <string name="delta_9s_20">3.2</string>
+    <string name="delta_9s_25">3.5</string>
+    <string name="delta_9s_30">4</string>
+
+    <string name="delta_10_10">0.0</string>
+    <string name="delta_10_15">2.9</string>
+    <string name="delta_10_20">3.5</string>
+    <string name="delta_10_25">3.9</string>
+    <string name="delta_10_30">4.4</string>
+
+    <string name="delta_10s_10">0.0</string>
+    <string name="delta_10s_15">0.0</string>
+    <string name="delta_10s_20">3.8</string>
+    <string name="delta_10s_25">4.2</string>
+    <string name="delta_10s_30">4.7</string>
+
+    <string name="delta_11_10">0.0</string>
+    <string name="delta_11_15">0.0</string>
+    <string name="delta_11_20">4</string>
+    <string name="delta_11_25">4.6</string>
+    <string name="delta_11_30">5</string>
+
+    <string name="delta_11s_10">0.0</string>
+    <string name="delta_11s_15">0.0</string>
+    <string name="delta_11s_20">4.4</string>
+    <string name="delta_11s_25">4.9</string>
+    <string name="delta_11s_30">5.4</string>
+
+    <string name="delta_12_10">0.0</string>
+    <string name="delta_12_15">0.0</string>
+    <string name="delta_12_20">4.6</string>
+    <string name="delta_12_25">5</string>
+    <string name="delta_12_30">5.8</string>
+
+    <string name="delta_12s_10">0.0</string>
+    <string name="delta_12s_15">0.0</string>
+    <string name="delta_12s_20">5.1</string>
+    <string name="delta_12s_25">5.5</string>
+    <string name="delta_12s_30">6.1</string>
+
+    <string name="delta_13_10">0.0</string>
+    <string name="delta_13_15">0.0</string>
+    <string name="delta_13_20">5.3</string>
+    <string name="delta_13_25">5.9</string>
+    <string name="delta_13_30">6.4</string>
+
+    <string name="delta_13s_10">0.0</string>
+    <string name="delta_13s_15">0.0</string>
+    <string name="delta_13s_20">5.5</string>
+    <string name="delta_13s_25">6.2</string>
+    <string name="delta_13s_30">6.8</string>
+
+    <string name="delta_14_10">0.0</string>
+    <string name="delta_14_15">0.0</string>
+    <string name="delta_14_20">5.9</string>
+    <string name="delta_14_25">6.5</string>
+    <string name="delta_14_30">7.1</string>
+
+    <string name="delta_14s_10">0.0</string>
+    <string name="delta_14s_15">0.0</string>
+    <string name="delta_14s_20">0.0</string>
+    <string name="delta_14s_25">6.9</string>
+    <string name="delta_14s_30">7.5</string>
+
+    <string name="delta_15_10">0.0</string>
+    <string name="delta_15_15">0.0</string>
+    <string name="delta_15_20">0.0</string>
+    <string name="delta_15_25">7.2</string>
+    <string name="delta_15_30">7.9</string>
+
+    <string name="delta_15s_10">0.0</string>
+    <string name="delta_15s_15">0.0</string>
+    <string name="delta_15s_20">0.0</string>
+    <string name="delta_15s_25">7</string>
+    <string name="delta_15s_30">8.2</string>
+
+    <string name="delta_16_10">0.0</string>
+    <string name="delta_16_15">0.0</string>
+    <string name="delta_16_20">0.0</string>
+    <string name="delta_16_25">7.9</string>
+    <string name="delta_16_30">8.5</string>
+
+    <string name="delta_16s_10">0.0</string>
+    <string name="delta_16s_15">0.0</string>
+    <string name="delta_16s_20">0.0</string>
+    <string name="delta_16s_25">8.4</string>
+    <string name="delta_16s_30">9</string>
+
+    <string name="delta_17_10">0.0</string>
+    <string name="delta_17_15">0.0</string>
+    <string name="delta_17_20">0.0</string>
+    <string name="delta_17_25">8.6</string>
+    <string name="delta_17_30">9.5</string>
+
+    <string name="delta_17s_10">0.0</string>
+    <string name="delta_17s_15">0.0</string>
+    <string name="delta_17s_20">0.0</string>
+    <string name="delta_17s_25">9</string>
+    <string name="delta_17s_30">9.7</string>
+
+    <string name="delta_18_10">0.0</string>
+    <string name="delta_18_15">0.0</string>
+    <string name="delta_18_20">0.0</string>
+    <string name="delta_18_25">9.5</string>
+    <string name="delta_18_30">10.2</string>
+
+    <string name="delta_18s_10">0.0</string>
+    <string name="delta_18s_15">0.0</string>
+    <string name="delta_18s_20">0.0</string>
+    <string name="delta_18s_25">9.8</string>
+    <string name="delta_18s_30">10.9</string>
+
+    <string name="delta_19_10">0.0</string>
+    <string name="delta_19_15">0.0</string>
+    <string name="delta_19_20">0.0</string>
+    <string name="delta_19_25">10.7</string>
+    <string name="delta_19_30">11</string>
+
+    <string name="delta_19s_10">0.0</string>
+    <string name="delta_19s_15">0.0</string>
+    <string name="delta_19s_20">0.0</string>
+    <string name="delta_19s_25">11</string>
+    <string name="delta_19s_30">11.5</string>
+
+    <string name="delta_20_10">0.0</string>
+    <string name="delta_20_15">0.0</string>
+    <string name="delta_20_20">0.0</string>
+    <string name="delta_20_25">11.5</string>
+    <string name="delta_20_30">11.9</string>
+
+    <string name="delta_20s_10">0.0</string>
+    <string name="delta_20s_15">0.0</string>
+    <string name="delta_20s_20">0.0</string>
+    <string name="delta_20s_25">0.0</string>
+    <string name="delta_20s_30">12.7</string>
+
+    <string name="delta_21_10">0.0</string>
+    <string name="delta_21_15">0.0</string>
+    <string name="delta_21_20">0.0</string>
+    <string name="delta_21_25">0.0</string>
+    <string name="delta_21_30">13.2</string>
+
+    <string name="delta_21s_10">0.0</string>
+    <string name="delta_21s_15">0.0</string>
+    <string name="delta_21s_20">0.0</string>
+    <string name="delta_21s_25">0.0</string>
+    <string name="delta_21s_30">13.7</string>
+
+    <string name="delta_22_10">0.0</string>
+    <string name="delta_22_15">0.0</string>
+    <string name="delta_22_20">0.0</string>
+    <string name="delta_22_25">0.0</string>
+    <string name="delta_22_30">13.5</string>
+
+    <string name="delta_22s_10">0.0</string>
+    <string name="delta_22s_15">0.0</string>
+    <string name="delta_22s_20">0.0</string>
+    <string name="delta_22s_25">0.0</string>
+    <string name="delta_22s_30">14</string>
+
+    <string name="delta_23_10">0.0</string>
+    <string name="delta_23_15">0.0</string>
+    <string name="delta_23_20">0.0</string>
+    <string name="delta_23_25">0.0</string>
+    <string name="delta_23_30">14.8</string>
+
+    <!--delta1 value-->
+    <!-- Deh CFM/capacity reqd-->
+    <string name="delta1_0_10">0.0</string>
+    <string name="delta1_0_15">0.0</string>
+    <string name="delta1_0_20">0.0</string>
+    <string name="delta1_0_25">0.0</string>
+    <string name="delta1_0_30">0.0</string>
+
+    <string name="delta1_0s_10">0.0</string>
+    <string name="delta1_0s_15">0.0</string>
+    <string name="delta1_0s_20">0.0</string>
+    <string name="delta1_0s_25">0.0</string>
+    <string name="delta1_0s_30">0.0</string>
+
+    <string name="delta1_1_10">22.5</string>
+    <string name="delta1_1_15">27.4</string>
+    <string name="delta1_1_20">31.3</string>
+    <string name="delta1_1_25">36.25</string>
+    <string name="delta1_1_30">40.62</string>
+
+    <string name="delta1_1s_10">23.75</string>
+    <string name="delta1_1s_15">27.55</string>
+    <string name="delta1_1s_20">32.52</string>
+    <string name="delta1_1s_25">37.3</string>
+    <string name="delta1_1s_30">41.35</string>
+
+    <string name="delta1_2_10">25</string>
+    <string name="delta1_2_15">28.85</string>
+    <string name="delta1_2_20">33.75</string>
+    <string name="delta1_2_25">37.92</string>
+    <string name="delta1_2_30">42.5</string>
+
+    <string name="delta1_2s_10">26.2</string>
+    <string name="delta1_2s_15">30.05</string>
+    <string name="delta1_2s_20">35</string>
+    <string name="delta1_2s_25">38.75</string>
+    <string name="delta1_2s_30">43.12</string>
+
+    <string name="delta1_3_10">27</string>
+    <string name="delta1_3_15">31.25</string>
+    <string name="delta1_3_20">36.2</string>
+    <string name="delta1_3_25">40</string>
+    <string name="delta1_3_30">44.37</string>
+
+    <string name="delta1_3s_10">28.2</string>
+    <string name="delta1_3s_15">32.5</string>
+    <string name="delta1_3s_20">37.4</string>
+    <string name="delta1_3s_25">41.25</string>
+    <string name="delta1_3s_30">45</string>
+
+    <string name="delta1_4_10">28.5</string>
+    <string name="delta1_4_15">33.75</string>
+    <string name="delta1_4_20">37.55</string>
+    <string name="delta1_4_25">41.92</string>
+    <string name="delta1_4_30">46.25</string>
+
+    <string name="delta1_4s_10">30.1</string>
+    <string name="delta1_4s_15">33.95</string>
+    <string name="delta1_4s_20">38.75</string>
+    <string name="delta1_4s_25">42.6</string>
+    <string name="delta1_4s_30">47</string>
+
+
+    <string name="delta1_5_10">31.25</string>
+    <string name="delta1_5_15">35.1</string>
+    <string name="delta1_5_20">39.97</string>
+    <string name="delta1_5_25">43.75</string>
+    <string name="delta1_5_30">47.5</string>
+
+    <string name="delta1_5s_10">32.1</string>
+    <string name="delta1_5s_15">36.35</string>
+    <string name="delta1_5s_20">40.15</string>
+    <string name="delta1_5s_25">44.45</string>
+    <string name="delta1_5s_30">48.75</string>
+
+    <string name="delta1_6_10">32.6</string>
+    <string name="delta1_6_15">37.5</string>
+    <string name="delta1_6_20">41.25</string>
+    <string name="delta1_6_25">45.6</string>
+    <string name="delta1_6_30">49.75</string>
+
+    <string name="delta1_6s_10">33.8</string>
+    <string name="delta1_6s_15">37.6</string>
+    <string name="delta1_6s_20">41.35</string>
+    <string name="delta1_6s_25">46</string>
+    <string name="delta1_6s_30">50</string>
+
+    <string name="delta1_7_10">35</string>
+    <string name="delta1_7_15">38.8</string>
+    <string name="delta1_7_20">42.5</string>
+    <string name="delta1_7_25">46.62</string>
+    <string name="delta1_7_30">51</string>
+
+    <string name="delta1_7s_10">0.0</string>
+    <string name="delta1_7s_15">38.98</string>
+    <string name="delta1_7s_20">43.73</string>
+    <string name="delta1_7s_25">47.5</string>
+    <string name="delta1_7s_30">51.25</string>
+
+    <string name="delta1_8_10">0.0</string>
+    <string name="delta1_8_15">40.08</string>
+    <string name="delta1_8_20">43.8</string>
+    <string name="delta1_8_25">48</string>
+    <string name="delta1_8_30">51.9</string>
+
+    <string name="delta1_8s_10">0.0</string>
+    <string name="delta1_8s_15">41.22</string>
+    <string name="delta1_8s_20">44.98</string>
+    <string name="delta1_8s_25">48.75</string>
+    <string name="delta1_8s_30">52.1</string>
+
+    <string name="delta1_9_10">0.0</string>
+    <string name="delta1_9_15">42</string>
+    <string name="delta1_9_20">45.05</string>
+    <string name="delta1_9_25">49.4</string>
+    <string name="delta1_9_30">52.25</string>
+
+    <string name="delta1_9s_10">0.0</string>
+    <string name="delta1_9s_15">42.48</string>
+    <string name="delta1_9s_20">46.15</string>
+    <string name="delta1_9s_25">49.92</string>
+    <string name="delta1_9s_30">52.87</string>
+
+    <string name="delta1_10_10">0.0</string>
+    <string name="delta1_10_15">43.5</string>
+    <string name="delta1_10_20">46.3</string>
+    <string name="delta1_10_25">50.62</string>
+    <string name="delta1_10_30">53.49</string>
+
+    <string name="delta1_10s_10">0.0</string>
+    <string name="delta1_10s_15">0.0</string>
+    <string name="delta1_10s_20">46.4</string>
+    <string name="delta1_10s_25">50.75</string>
+    <string name="delta1_10s_30">54</string>
+
+    <string name="delta1_11_10">0.0</string>
+    <string name="delta1_11_15">0.0</string>
+    <string name="delta1_11_20">0.0</string>
+    <string name="delta1_11_25">51.25</string>
+    <string name="delta1_11_30">54.8</string>
+
+    <string name="delta1_11s_10">0.0</string>
+    <string name="delta1_11s_15">0.0</string>
+    <string name="delta1_11s_20">0.0</string>
+    <string name="delta1_11s_25">51.87</string>
+    <string name="delta1_11s_30">55</string>
+
+    <string name="delta1_12_10">0.0</string>
+    <string name="delta1_12_15">0.0</string>
+    <string name="delta1_12_20">0.0</string>
+    <string name="delta1_12_25">52.1</string>
+    <string name="delta1_12_30">55.1</string>
+
+    <string name="delta1_12s_10">0.0</string>
+    <string name="delta1_12s_15">0.0</string>
+    <string name="delta1_12s_20">0.0</string>
+    <string name="delta1_12s_25">52.6</string>
+    <string name="delta1_12s_30">55.4</string>
+
+    <string name="delta1_13_10">0.0</string>
+    <string name="delta1_13_15">0.0</string>
+    <string name="delta1_13_20">0.0</string>
+    <string name="delta1_13_25">53.12</string>
+    <string name="delta1_13_30">56</string>
+
+    <string name="delta1_13s_10">0.0</string>
+    <string name="delta1_13s_15">0.0</string>
+    <string name="delta1_13s_20">0.0</string>
+    <string name="delta1_13s_25">53.75</string>
+    <string name="delta1_13s_30">56.15</string>
+
+    <string name="delta1_14_10">0.0</string>
+    <string name="delta1_14_15">0.0</string>
+    <string name="delta1_14_20">0.0</string>
+    <string name="delta1_14_25">53.9</string>
+    <string name="delta1_14_30">56.25</string>
+
+    <string name="delta1_14s_10">0.0</string>
+    <string name="delta1_14s_15">0.0</string>
+    <string name="delta1_14s_20">0.0</string>
+    <string name="delta1_14s_25">54.07</string>
+    <string name="delta1_14s_30">57</string>
+
+    <string name="delta1_15_10">0.0</string>
+    <string name="delta1_15_15">0.0</string>
+    <string name="delta1_15_20">0.0</string>
+    <string name="delta1_15_25">54.18</string>
+    <string name="delta1_15_30">57.1</string>
+
+    <string name="delta1_15s_10">0.0</string>
+    <string name="delta1_15s_15">0.0</string>
+    <string name="delta1_15s_20">0.0</string>
+    <string name="delta1_15s_25">54.37</string>
+    <string name="delta1_15s_30">57.5</string>
+
+    <string name="delta1_16_10">0.0</string>
+    <string name="delta1_16_15">0.0</string>
+    <string name="delta1_16_20">0.0</string>
+    <string name="delta1_16_25">54.5</string>
+    <string name="delta1_16_30">57.53</string>
+
+    <string name="delta1_16s_10">0.0</string>
+    <string name="delta1_16s_15">0.0</string>
+    <string name="delta1_16s_20">0.0</string>
+    <string name="delta1_16s_25">55</string>
+    <string name="delta1_16s_30">57.95</string>
+
+    <string name="delta1_17_10">0.0</string>
+    <string name="delta1_17_15">0.0</string>
+    <string name="delta1_17_20">0.0</string>
+    <string name="delta1_17_25">55.1</string>
+    <string name="delta1_17_30">58</string>
+
+    <string name="delta1_17s_10">0.0</string>
+    <string name="delta1_17s_15">0.0</string>
+    <string name="delta1_17s_20">0.0</string>
+    <string name="delta1_17s_25">55.25</string>
+    <string name="delta1_17s_30">58.5</string>
+
+    <string name="delta1_18_10">0.0</string>
+    <string name="delta1_18_15">0.0</string>
+    <string name="delta1_18_20">0.0</string>
+    <string name="delta1_18_25">55.7</string>
+    <string name="delta1_18_30">58.75</string>
+
+    <string name="delta1_18s_10">0.0</string>
+    <string name="delta1_18s_15">0.0</string>
+    <string name="delta1_18s_20">0.0</string>
+    <string name="delta1_18s_25">56.15</string>
+    <string name="delta1_18s_30">58.8</string>
+
+    <string name="delta1_19_10">0.0</string>
+    <string name="delta1_19_15">0.0</string>
+    <string name="delta1_19_20">0.0</string>
+    <string name="delta1_19_25">56.25</string>
+    <string name="delta1_19_30">59.3</string>
+
+    <string name="delta1_19s_10">0.0</string>
+    <string name="delta1_19s_15">0.0</string>
+    <string name="delta1_19s_20">0.0</string>
+    <string name="delta1_19s_25">56.4</string>
+    <string name="delta1_19s_30">59.3</string>
+
+    <string name="delta1_20_10">0.0</string>
+    <string name="delta1_20_15">0.0</string>
+    <string name="delta1_20_20">0.0</string>
+    <string name="delta1_20_25">56.87</string>
+    <string name="delta1_20_30">59.5</string>
+
+    <string name="delta1_20s_10">0.0</string>
+    <string name="delta1_20s_15">0.0</string>
+    <string name="delta1_20s_20">0.0</string>
+    <string name="delta1_20s_25">0.0</string>
+    <string name="delta1_20s_30">59.6</string>
+
+    <string name="delta1_21_10">0.0</string>
+    <string name="delta1_21_15">0.0</string>
+    <string name="delta1_21_20">0.0</string>
+    <string name="delta1_21_25">0.0</string>
+    <string name="delta1_21_30">59.7</string>
+
+    <string name="delta1_21s_10">0.0</string>
+    <string name="delta1_21s_15">0.0</string>
+    <string name="delta1_21s_20">0.0</string>
+    <string name="delta1_21s_25">0.0</string>
+    <string name="delta1_21s_30">59.8</string>
+
+    <string name="delta1_22_10">0.0</string>
+    <string name="delta1_22_15">0.0</string>
+    <string name="delta1_22_20">0.0</string>
+    <string name="delta1_22_25">0.0</string>
+    <string name="delta1_22_30">6</string>
+
+    <string name="delta1_22s_10">0.0</string>
+    <string name="delta1_22s_15">0.0</string>
+    <string name="delta1_22s_20">0.0</string>
+    <string name="delta1_22s_25">0.0</string>
+    <string name="delta1_22s_30">6</string>
+
+    <string name="delta1_23_10">0.0</string>
+    <string name="delta1_23_15">0.0</string>
+    <string name="delta1_23_20">0.0</string>
+    <string name="delta1_23_25">0.0</string>
+    <string name="delta1_23_30">6</string>
+
+
+    <!-- temp is-->
+    <string name="temp_10">10</string>
+    <string name="temp_15">15</string>
+    <string name="temp_20">20</string>
+    <string name="temp_25">25</string>
+    <string name="temp_30">30</string>
+
+    <!--delta input-->
+    <string name="delta_0">0</string>
+    <string name="delta_0s">0.5</string>
+    <string name="delta_1">1</string>
+    <string name="delta_1s">1.5</string>
+    <string name="delta_2">2</string>
+
+    <string name="delta_2s">2.5</string>
+    <string name="delta_3">3</string>
+    <string name="delta_3s">3.5</string>
+    <string name="delta_4">4</string>
+    <string name="delta_4s">4.5</string>
+
+    <string name="delta_5">5</string>
+    <string name="delta_5s">5.5</string>
+    <string name="delta_6">6</string>
+    <string name="delta_6s">6.5</string>
+    <string name="delta_7">7</string>
+
+    <string name="delta_7s">7.5</string>
+    <string name="delta_8">8</string>
+    <string name="delta_8s">8.5</string>
+    <string name="delta_9">9</string>
+    <string name="delta_9s">9.5</string>
+
+    <string name="delta_10">10</string>
+    <string name="delta_10s">10.5</string>
+    <string name="delta_11">11</string>
+    <string name="delta_11s">11.5</string>
+    <string name="delta_12">12</string>
+
+    <string name="delta_12s">12.5</string>
+    <string name="delta_13">13</string>
+    <string name="delta_13s">13.5</string>
+    <string name="delta_14">14</string>
+    <string name="delta_14s">14.5</string>
+
+    <string name="delta_15">15</string>
+    <string name="delta_15s">15.5</string>
+    <string name="delta_16">16</string>
+    <string name="delta_16s">16.5</string>
+    <string name="delta_17">17</string>
+
+    <string name="delta_17s">17.5</string>
+    <string name="delta_18">18</string>
+    <string name="delta_18s">18.5</string>
+    <string name="delta_19">19</string>
+    <string name="delta_19s">19.5</string>
+
+    <string name="delta_20">20</string>
+    <string name="delta_20s">20.5</string>
+    <string name="delta_21">21</string>
+    <string name="delta_21s">21.5</string>
+    <string name="delta_22">22</string>
+
+    <string name="delta_22s">22.5</string>
+    <string name="delta_23">23</string>
+
+
+    <!--Quotation-->
+
+    <string name="t1"><b>M/s Design Architecture Associated Technologies,</b>\nS 33, (MZ Floor) Greater Kailash Part II</string>
+    <!-- <string name="t2"><b>Phone: +91-9811117051</b>\n<b>Email: amitbahl73@gmail.com</b>\n\n\n
+Client/Project Name: NA/ NA\n
+Consultant: NA\n
+Application: Packing Area\n
+Project Location: Okhla\n\n\n
+Offer No: 1733-N-HC/DAE/16-17\n\n\n
+<b>Kind Attn : Mr. Amit Bahl</b>\n\n\n
+<b>Sub: Dehumidifier for Humidity Control</b></string>-->
+    <string name="top">Sub: Dehumidifier for Humidity Control </string>
+
+    <string name="t3"><b>Sub: Dehumidifier for Humidity Control </b>\n\n
+</string>
+    <string name="t4">We thank you for your enquiry of dehumidifiers and we wish to inform you that we are manufacturing the dehumidifiers under the brand name CASILICA an another brand of A.C. HUMIDIN AIR SYSTEMS. We also wish to inform you that we are in this business of HVAC products and systems for more than 3 decades and have catered to almost all type of industries all over India and have served to our various clients abroad.\n\nApart from dehumidifiers we are well known manufacturers of Ventilation Products of International quality under
+the brand name HUMIDIN. Our products range includes Dust and Fume Extraction Systems, Centrifugal Fans,
+Axial Fans, Inline Fans, Air Washers and Scrubbers. <b>Humidin,</b> is the first Indian company to have its products
+<b>certified by AMCA, USA.</b>\n\nWe deal in Desiccant Dehumidifiers, Air Handling Units, Heat Recovery Wheels, Energy Recovery Ventilators,
+Treated Fresh Air Units(TFA), Plate Type Heat Exchangers(Air to Air). The products manufactured by us are state
+of the art products. Casilica has very vast experience of application engineering, design and R &amp; D.\n\nThe dehumidifier manufactured under the brand CASILICA is rotary type and air is dried by process of
+continuous physical adsorption to control the humidity in the space as per the required design conditions. The
+desiccant rotor is imported from one of the leading global rotor manufacturer and is non toxic, fully water
+washable, non flammable with high moisture removal capacity at low energy consumption.</string>
+    <string name="q_summ">\nThis quotation has been generated through a software on the basis of the conditions you have mentioned while filling the input sheet.\n\nFor any specific requirement or condition which could not be met through this software, we request you to kindly write to us at <font color='#0000FF'><u>info@casilica.com</u></font>.\n\n\n
+Please find enclosed our competitive quote along with Input sheet considered for selection/offer, flow diagram,
+our scope of work, Latent Load calculation sheet and a set of technical literature for your kind perusal.\n\n
+We hope you will find our offer inline with your requirement and would favor us with your valued purchase order.\n\n\n
+Thanking you and assuring you of our best services at all times.\n\n\n
+Yours Faithfully,
+</string>
+
+    <string name="q_summ_pdf">This quotation has been generated through a software on the basis of the conditions you have mentioned while filling the input sheet.\n\nFor any specific requirement or condition which could not be met through this software, we request you to kindly write to us at <font color='#0000FF'><u>info@casilica.com</u></font>.\n\n
+Please find enclosed our competitive quote along with Input sheet considered for selection/offer, flow diagram,
+our scope of work, Latent Load calculation sheet and a set of technical literature for your kind perusal.\n\n
+We hope you will find our offer inline with your requirement and would favor us with your valued purchase order.\n\n
+Thanking you and assuring you of our best services at all times.\n\n\n
+Yours Faithfully,\n
+For </string>
+
+    <string name="tsummary"><u>Technical Summary</u></string>
+    <string name="tdehumidifier"><u>Dehumidifier</u></string>
+    <string name="our_scope"><u>Our Scope Of Work - Dehumidifier</u></string>
+
+    <string name="our_scope1"><u>Our Scope Of Work</u></string>
+
+    <string name="ourscopwork">- Process fan &amp; motor arrangement.\n
+        <!--&nbsp;&nbsp;&nbsp;-->- SP : 3.2”\n
+        <!--&nbsp;&nbsp;&nbsp;-->- Fan motor make: Siemens /Crompton/ABB/Equivalent make\n\n
+- Reactivation fan and motor arrangement\n
+        <!--&nbsp;&nbsp;&nbsp;-->- SP : 2.4”\n
+        <!--&nbsp;&nbsp;&nbsp;-->- Fan motor make: Siemens /Crompton/ABB/Equivalent make\n\n
+- Filters for process and reactivation air\n
+        <!--&nbsp;&nbsp;&nbsp;-->- Media :Synthetic Non-Woven media\n\n
+- Regeneration heat source : Electric/Steam or combination of both\n\n
+- Skid mounted unit with no foundation required\n\n
+- Volume control dampers for process &amp; supply air\n
+        <!--&nbsp;&nbsp;&nbsp;-->- Type: Boxed, opposed blade type manually operated\n\n
+- Control panel with all inbuilt electrical controls for dehumidifier smooth operation\n\n
+- Pre Cool Housing &amp; Coil\n
+- <!--&nbsp;&nbsp;&nbsp;--><b>Included</b>\n
+- After Cool Housing &amp; Coil\n
+- <!--&nbsp;&nbsp;&nbsp;--><b>Included</b>\n\n
+- Inbuilt By pass arrangement – N. A\n\n
+<b><u>Exclusions from our scope :</u></b>\n
+Any Ducting required inside /outside the room\n
+All utilities, civil/masonry work, related to installation\n
+Power &amp; Electrical cabling to our control panel\n
+RH/Temperature sensors, controls unless quoted &amp; ordered\n
+Condensate Drain.\n
+<b><u>Anything not specifically mentioned in our Scope of Supply</u></b></string>
+
+    <string name="q_commer"><u>COMMERCIAL QUOTATION</u></string>
+    <string name="q_subcommer">The following is our <u>competitive quote</u> as per recommended models.</string>
+
+    <string name="q_commercial"><b>The above prices includes dehumidifier with pre and post cooling coils within 25mm thick insulated puff
+section, the condensing unit shall not be in our scope.</b>\n\n<b>The prices mentioned above are <u>exclusive</u> of any taxes and duties, EX-WORKS, unpacked condition</b>\n\n<b>TAXES &amp; DUTIES shall be applicable extra as follows :</b>\n</string>
+    <string name="input_project_loc">Project Location</string>
+    <!--  12.5% of Excise Duty shall be as applicable at the time of dispatch.\n
+     14% Sales Tax or 2% CST against Form C\n
+     Packing shall be charged extra @ 3%\n
+     Insurance shall be 0.5%\n
+     Freight , Octroi, if applicable shall be extra\n\n
+    <b>DELIVERY : <u>6-8 weeks</u></b> after technically approval from you &amp; order is commercially clear\n\n
+    <b>SUPERVISION CHARGES (per unit) Rs. 12,500/-</b>\n\n
+    <b>PAYMENT TERMS :</b> Advance - 30% along with the order , &amp; Balance with full Taxes &amp; Duties against\n
+    Performa Invoice prior to dispatch.\n\n
+    <b>VALIDITY OF QUOTE :</b> 30 days from the quotation date\n\n\n
+    Yours faithfully,\n
+    For <b>A.C. HUMIDIN AIR SYSTEMS</b>\n\n\n
+    <b>Lokesh Ray</b>\n
+    <b>Application Engineer</b>\n
+    <b>+91-9650375541, 9599925983</b>\n
+    <b>Email :</b> <font color = '#0000FF'><u>info@casilica.com</u></font>\n<font color = '#0000FF'><u>www.casilica.com</u></font></string>-->
+
+
+    <!-- Our Scope Of Work-->
+    <string name="osw_2">2.	Pre Cool Housing &amp; Coil</string>
+
+    <string name="osw_3">3.	After Cool Housing &amp; Coil</string>
+
+    <string name="osw_4">4.	Process fan &amp; motor arrangement. </string>
+
+    <string name="osw_4sub">Fan Make: Humidin
+Fan motor make: Siemens/Crompton/ABB/Equivalent make</string>
+
+    <string name="osw_5">5.	Reactivation fan and motor arrangement</string>
+    <string name="osw_5sub">Fan Make: Humidin
+Fan motor make: Siemens /Crompton/ABB/Equivalent make</string>
+    <string name="inputsheet"><u>Input Sheet\n</u>\n</string>
+    <string name="outsheet"><u>Output Sheet\n</u>\n</string>
+    <string name="scope"><u>Exclusions from our scope : </u></string>
+    <string name="exclusionscope"><u> Installation and Commissioning \n Any Ducting required inside /outside the room
+        \n All utilities, civil/masonry work, related to installation \n Power &amp; Electrical cabling to our control panel \n
+        RH/Temperature sensors, controls unless quoted &amp; ordered \n Condensate Drain. \n Condensor or Chilled Water\n</u></string>
+    <string name="our_scopehading"><u>We recommend dehumidifier model \n</u></string>
+    <string name="osw_6">6.	Filters for Process</string>
+    <string name="osw_7">7.	Reactivation Air\n&#160;&#160;&#160;&#160;Media: Synthetic Non-Woven Media</string>
+    <string name="osw_8">8.	Regeneration Heat Source </string>
+    <string name="osw_9">9 .Heat Recovery :</string>
+    <string name="osw_10">10. Skid mounted unit with no foundation required</string>
+    <string name="osw_11">11.Volume Control Dampers for Process &amp; Supply Air\n
+   &#160;&#160;&#160;&#160;&#160;<Typ></Typ>e: Boxed, opposed blade type manually operated</string>
+    <string name="osw_12">12. Control panel with all inbuilt electrical controls for dehumidifier smooth operation</string>
+    <string name="osw_13">12. Inbuilt By pass Arrangement– N. A  </string>
+
+
+</resources>

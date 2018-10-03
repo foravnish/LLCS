@@ -1,0 +1,523 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="0dp"
+    android:background="@android:color/white">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_in"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:elevation="4dp"
+        android:transitionName="actionBar"
+        android:background="@android:color/white"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:theme="@style/ThemeOverlay.AppCompat.Light"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <!--<LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:paddingBottom="3dp"
+                android:weightSum="2.5">
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:background="#8ECDC1"
+                    android:text="PRINT"
+                    android:textColor="@android:color/white"
+                    android:textSize="18sp"
+                    android:id="@+id/btn_qtprint" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight=".5"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:id="@+id/btn_qtsum"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:textSize="18sp"
+                    android:background="@drawable/rounded_btn_blue"
+                    android:text="NEXT"
+                    android:textColor="@android:color/white"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>-->
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="60dp"
+                    android:paddingLeft="5dp"
+                    android:src="@drawable/new_2"/>
+
+                <TextView
+                    android:text="Technical Summary"
+                    android:layout_gravity="center"
+                    android:paddingLeft="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:lineSpacingExtra="4dp"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:id="@+id/txt_qtsumm_head"/>
+
+
+               <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/hd_two"
+                    android:text="Dehumidifier"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="5dp"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold"
+                    android:textSize="18sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="@drawable/t_summary_lyt"
+                    android:layout_margin="10dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:weightSum="2.01"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:text="Area/AHU No"
+                            android:layout_width="0dp"
+                            android:layout_weight="1.2"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_vertical"
+                            android:textStyle="bold"
+                            android:padding="5dp"
+                            android:textSize="16sp"/>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_weight=".008"
+                            android:background="@android:color/black"
+                            android:layout_height="match_parent" />
+                        <TextView
+                            android:id="@+id/ts_area"
+                            android:text=""
+                            android:layout_width="0dp"
+                            android:layout_weight=".8"
+                            android:textStyle="bold"
+                            android:padding="5dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textSize="16sp"/>
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:background="@android:color/black"
+                            android:layout_height="1dp" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:weightSum="2.01"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:text="Room Volume (CFT)"
+                            android:layout_width="0dp"
+                            android:layout_weight="1.2"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_vertical"
+                            android:textStyle="bold"
+                            android:padding="5dp"
+                            android:textSize="16sp"/>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_weight=".008"
+                            android:background="@android:color/black"
+                            android:layout_height="match_parent" />
+                        <TextView
+                            android:id="@+id/ts_rmvalume"
+                            android:text=""
+                            android:layout_width="0dp"
+                            android:layout_weight=".8"
+                            android:textStyle="bold"
+                            android:padding="5dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textSize="16sp"/>
+                    </LinearLayout>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:background="@android:color/black"
+                        android:layout_height="1dp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:weightSum="2.01"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:text="Persons (NOS)"
+                            android:layout_width="0dp"
+                            android:layout_weight="1.2"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_vertical"
+                            android:textStyle="bold"
+                            android:padding="5dp"
+                            android:textSize="16sp"/>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_weight=".008"
+                            android:background="@android:color/black"
+                            android:layout_height="match_parent" />
+
+                        <TextView
+                            android:id="@+id/ts_person"
+                            android:text=""
+                            android:layout_width="0dp"
+                            android:layout_weight=".8"
+                            android:textStyle="bold"
+                            android:padding="5dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textSize="16sp"/>
+                    </LinearLayout>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:background="@android:color/black"
+                        android:layout_height="1dp" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:weightSum="2.01"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:text="Fresh Air Qty (CFM)"
+                            android:layout_width="0dp"
+                            android:layout_weight="1.2"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_vertical"
+                            android:textStyle="bold"
+                            android:padding="5dp"
+                            android:textSize="16sp"/>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_weight=".008"
+                            android:background="@android:color/black"
+                            android:layout_height="match_parent" />
+                        <TextView
+                            android:id="@+id/ts_faq"
+                            android:text=""
+                            android:layout_width="0dp"
+                            android:layout_weight=".8"
+                            android:textStyle="bold"
+                            android:padding="5dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textSize="16sp"/>
+                    </LinearLayout>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:background="@android:color/black"
+                        android:layout_height="1dp" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:weightSum="2.01"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:text="Infiltration Air Qty (CFM)"
+                            android:layout_width="0dp"
+                            android:layout_weight="1.2"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_vertical"
+                            android:textStyle="bold"
+                            android:padding="5dp"
+                            android:textSize="16sp"/>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_weight=".008"
+                            android:background="@android:color/black"
+                            android:layout_height="match_parent" />
+                        <TextView
+                            android:id="@+id/ts_iaq"
+                            android:text=""
+                            android:layout_width="0dp"
+                            android:layout_weight=".8"
+                            android:textStyle="bold"
+                            android:padding="5dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textSize="16sp"/>
+                    </LinearLayout>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:background="@android:color/black"
+                        android:layout_height="1dp" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:weightSum="2.01"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:text="Model"
+                            android:layout_width="0dp"
+                            android:layout_weight="1.2"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_vertical"
+                            android:textStyle="bold"
+                            android:padding="5dp"
+                            android:textSize="16sp"/>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_weight=".008"
+                            android:background="@android:color/black"
+                            android:layout_height="match_parent" />
+                        <TextView
+                            android:id="@+id/ts_model"
+                            android:text=""
+                            android:layout_width="0dp"
+                            android:layout_weight=".8"
+                            android:textStyle="bold"
+                            android:padding="5dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textSize="16sp"/>
+                    </LinearLayout>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:background="@android:color/black"
+                        android:layout_height="1dp" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:weightSum="2.01"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:text="Design RH (%)"
+                            android:layout_width="0dp"
+                            android:layout_weight="1.2"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_vertical"
+                            android:textStyle="bold"
+                            android:padding="5dp"
+                            android:textSize="16sp"/>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_weight=".008"
+                            android:background="@android:color/black"
+                            android:layout_height="match_parent" />
+                        <TextView
+                            android:id="@+id/ts_designrh"
+                            android:text=""
+                            android:layout_width="0dp"
+                            android:layout_weight=".8"
+                            android:textStyle="bold"
+                            android:padding="5dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textSize="16sp"/>
+                    </LinearLayout>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:background="@android:color/black"
+                        android:layout_height="1dp" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:weightSum="2.01"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:text="Design Temp (ºF)"
+                            android:layout_width="0dp"
+                            android:layout_weight="1.2"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_vertical"
+                            android:textStyle="bold"
+                            android:padding="5dp"
+                            android:textSize="16sp"/>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_weight=".008"
+                            android:background="@android:color/black"
+                            android:layout_height="match_parent" />
+
+                        <TextView
+                            android:id="@+id/ts_designtp"
+                            android:text=""
+                            android:layout_width="0dp"
+                            android:layout_weight=".8"
+                            android:textStyle="bold"
+                            android:padding="5dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textSize="16sp"/>
+                    </LinearLayout>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:background="@android:color/black"
+                        android:layout_height="1dp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:weightSum="2.01"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:text="Deh Air Qty (CFM)"
+                            android:layout_width="0dp"
+                            android:layout_weight="1.2"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_vertical"
+                            android:textStyle="bold"
+                            android:padding="5dp"
+                            android:textSize="16sp"/>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_weight=".008"
+                            android:background="@android:color/black"
+                            android:layout_height="match_parent" />
+                        <TextView
+                            android:id="@+id/ts_daq"
+                            android:text=""
+                            android:layout_width="0dp"
+                            android:layout_weight=".8"
+                            android:textStyle="bold"
+                            android:padding="5dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textSize="16sp"/>
+                    </LinearLayout>
+
+
+
+
+
+
+
+                </LinearLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="right"
+                    android:paddingLeft="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:src="@drawable/new_1"/>
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:paddingBottom="3dp"
+                android:weightSum="2.5">
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:background="#8ECDC1"
+                    android:text="PRINT"
+                    android:visibility="invisible"
+                    android:textColor="@android:color/white"
+                    android:textSize="18sp"
+                    android:id="@+id/button" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight=".5"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:id="@+id/btn_qtsum"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_press"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:text="NEXT"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+        </LinearLayout>
+</LinearLayout>

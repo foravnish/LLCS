@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_marginBottom="10dp">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:padding="10dp"
+        android:visibility="gone"
+        android:paddingRight="10dp"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/title" />
+
+
+    <TextView
+        android:id="@+id/info"
+        android:layout_below="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:visibility="visible"
+        android:layout_marginTop="10dp"
+        android:gravity="top"
+        android:text="“Designing an Engineered Dehumidifier on mobile needs two things Smart App and a Smart Usage. We have taken care of building a smart app, for a smarter you :-) "
+        android:textSize="16sp" />
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignTop="@+id/info"
+        android:layout_marginTop="60dp"
+        android:visibility="gone"
+        android:layout_marginRight="15dp"
+        android:layout_toStartOf="@+id/ok"
+        android:background="@drawable/smiling" />
+
+    <TextView
+        android:id="@+id/info2"
+        android:layout_below="@+id/info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:visibility="visible"
+        android:layout_marginTop="10dp"
+        android:gravity="top"
+        android:textStyle="bold"
+        android:text=" Helpful Smartness Tip - Consider safety factor of  5% in RH and 3.6 Deg Farehnite or 2deg C in Temperature in Design Conditions
+E.G. - For performance at Not More than 75DegF and Not More than 25%RH, feed 71.4DegF and 20%RH to the App."
+        android:textSize="16sp" />
+    <TextView
+        android:id="@+id/info3"
+        android:layout_below="@+id/info2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:visibility="visible"
+        android:layout_marginTop="30dp"
+        android:gravity="top"
+        android:text="Disclaimer - Casilica shall not be responsible for the outcomes of selections not adhering to the safety tip displayed above.”
+"
+        android:textSize="16sp" />
+
+    <CheckBox
+        android:id="@+id/checkbox"
+        android:layout_below="@+id/info3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="I Agree"/>
+    <Button
+        android:id="@+id/ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/checkbox"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btn_press"
+        android:gravity="center"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:text="Ok"
+        android:layout_gravity="center"
+        android:visibility="visible"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+</RelativeLayout>
